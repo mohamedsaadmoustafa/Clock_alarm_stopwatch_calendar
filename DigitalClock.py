@@ -5,7 +5,7 @@ from tkcalendar import Calendar
 import winsound
 from threading import *
 
-class App(Tk): # self represent TK
+class App(Tk): 
     def __init__(self):
         super().__init__()
         # root window
